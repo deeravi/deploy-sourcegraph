@@ -40,11 +40,11 @@ spec:
           name: timescaledb
         resources:
           limits:
-            cpu: "4"
-            memory: 2Gi
+            cpu: "2"
+            memory: 1Gi
           requests:
-            cpu: "4"
-            memory: 2Gi
+            cpu: "2"
+            memory: 1Gi
         volumeMounts:
         - mountPath: /var/lib/postgresql/data/
           name: disk
