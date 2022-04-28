@@ -32,6 +32,9 @@ Kubernetes is easy later.
 
 Please see [our docs](https://docs.sourcegraph.com/admin/install) for comparisons of deployment types and our resource estimator.
 
+Kubernetes would need aws load balancer controller
+https://blog.sivamuthukumar.com/aws-load-balancer-controller-on-eks-cluster#install-the-aws-load-balancer-controller
+
 ## Contributing
 
 We've made our deployment configurations open source to better serve our customers' needs. If there is anything we can do to make deploying Sourcegraph easier just [open an issue (in sourcegraph/sourcegraph)](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=deploy-sourcegraph&template=deploy-sourcegraph.md&title=%5Bdeploy-sourcegraph%5D) or a pull request and we will respond promptly!
